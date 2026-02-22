@@ -1,7 +1,14 @@
-# Futhark syntax highlighting for Vim
+# futhark-vim
 
-This repo is fanmade and so far has no connection to the developers of
-Futhark. See https://futhark-lang.org/ for more info on the langauge.
+This unofficial repository adds syntax highlighting for futhark. See the 
+[language reference](https://futhark.readthedocs.io/en/latest/language-reference.html) for details.
+
+## Installation
+
+Copy the `ftdetect`, `ftplugin`, `indent` and `syntax` directories to your `~/.config/vim/`
+or `~/.config/nvim` directories.
+
+Alternatively, use a plugin manager, and simply append `abxh/futhark-vim` as an entry.
 
 If you have Vundle installed simply add the following to your .vimrc between
 `call vundle#begin()` and `call vundle#end()`:
@@ -9,12 +16,3 @@ If you have Vundle installed simply add the following to your .vimrc between
 ```
 Plugin 'BeneCollyridam/futhark-vim'
 ```
-
-Otherwise simply run the install script:
-
-```bash
-$ bash install.sh
-```
-
-A lot of keywords, definitions, etc. has been taken from
-https://github.com/diku-dk/futhark/blob/master/tools/futhark.lang
