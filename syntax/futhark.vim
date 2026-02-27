@@ -23,7 +23,7 @@ syn keyword Type            int real bool char
 syn keyword Conditional     if then else
 syn keyword Repeat          loop for while do
 syn keyword Keyword         unsafe match case
-syn keyword Statement       with entry in local type val let module include
+syn keyword Statement       with entry in local val let module include
 syn match   Statement       "\vtype[~^]?" nextgroup=FutIdType skipwhite skipempty
 syn keyword Statement       def entry nextgroup=FutIdSpecial skipwhite skipempty
 syn keyword PreProc         open import nextgroup=FutIdSpecial skipwhite skipempty
