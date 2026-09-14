@@ -14,5 +14,5 @@ If you have Vundle installed simply add the following to your .vimrc between
 `call vundle#begin()` and `call vundle#end()`:
 
 ```
-Plugin 'BeneCollyridam/futhark-vim'
+Plugin 'abxh/futhark-vim'
 ```
